@@ -9,7 +9,8 @@ I investigated solving the 1-D Heat/Diffusion equation with Dirichlet boundary c
 
 $$ \frac{\partial{U}}{\partial{t}} = D\frac{\partial^{2}{U}}{\partial{x^{2}}},$$
 
-$$ U\big|_{x = -L,t } = U\big|_{x = L,t } = 0,$$
+$$ U\big|_{x = -L,t } = 0,$$
+$$ U\big|_{x = L,t } = 0$$
 
 $$ U\big|_{x,t =0} = \sin(\pi x),$$
 
