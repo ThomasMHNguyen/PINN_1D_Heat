@@ -16,7 +16,7 @@ $$ U\big|_{x,t =0} = \sin(\pi x),$$
 through a PINN. The PINN is structured in a similar way like traditional neural networks, however, we add a loss function that penalizes the PINN if the predicted values of the solution to the PDE or boundary conditions are incorrect.
 
 <div>
-<img src="./images/pinn_solution.mp4" width="700"/>
+<img src="./images/pinn_solution.gif" width="700"/>
 </div>
 
 # Relevant Python Packages
